@@ -7,12 +7,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 2px 2px 0 0 black;
   /* display: none; */
 
 }
 .modal-content{
   width: 500px;
-  height: 300px;
+  height: 350px;
   background-color: rgb(255, 255, 255);
   border-radius: 4px;
   text-align: center;
@@ -35,32 +36,40 @@ input{
   cursor: pointer;
 }
 button{
-  font-family: 'Pacifico', cursive;
-  font-size: 18px;
-  background-color: aqua;
-color:gray;
-border-radius: 5px;
-padding: 10px;
-border-color: 2px black;
-
-}
-.button{
-   font-family: 'Pacifico', cursive;
+ font-family: 'Open Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: rgba(255, 196, 0, 0.788);
 color:gray;
 border-radius: 5px;
-padding: 10px;
+padding:5px 10px 5px 10px;
 border-color: 2px black;
+
+}
+.button{
+   font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  background-color: rgba(255, 196, 0, 0.788);
+color:gray;
+border-radius: 5px;
+padding:5px 10px 5px 10px;
+border-color: 2px black;
+margin-top: 15px;
+
 }
 form{
-  font-family: 'Pacifico', cursive;
+   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 18px;
+  border-radius: 5px;
  
 }
-h4{
+input{
+  border-radius: 5px;
+}
+.Registration{
   font-size: 20px;
-  
+  font-weight: 700;
+    font-family: 'Open Sans Condensed', sans-serif;
+ 
 }
 h1{
   font-family: 'Open Sans Condensed', sans-serif;
